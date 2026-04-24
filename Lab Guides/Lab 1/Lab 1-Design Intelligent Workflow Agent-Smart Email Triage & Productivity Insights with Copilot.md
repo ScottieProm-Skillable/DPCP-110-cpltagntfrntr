@@ -93,9 +93,9 @@ operational efficiency.
 
 **DLP & Connector Requirements (Admin setup)**
 
-Your organization’s DLP policy must allow:
+Your organization’s DLP policy must allow:
 
-- AI actions (Power Platform connector)
+- AI actions (Power Platform connector)
 
 - Dataverse (AI prompt)
 
@@ -122,35 +122,35 @@ You are Marie (Customer Support Manager) logging into Microsoft 365
 Copilot to automate email triage.
 
 1.  Navigate to +++https://m365.cloud.microsoft/chat/+++ to
-    open Microsoft 365 Copilot.
+    open Microsoft 365 Copilot.
 
 2.  Sign in with your Microsoft 365 Copilot account credentials.
 
     ![](https://raw.githubusercontent.com/technofocus-pte/cpltagntfrntr/refs/heads/main/Lab%20Guides/Lab%201/media/image1.png)
 
-3.  Enter the password and click **Yes**, to stay signed in.
+3.  Enter the password and click **Yes**, to stay signed in.
 
     ![](https://raw.githubusercontent.com/technofocus-pte/cpltagntfrntr/refs/heads/main/Lab%20Guides/Lab%201/media/image2.png)
 
     ![](https://raw.githubusercontent.com/technofocus-pte/cpltagntfrntr/refs/heads/main/Lab%20Guides/Lab%201/media/image3.png)
 
-4.  After successful login, you will see **Copilot Chat** home page.
+4.  After successful login, you will see **Copilot Chat** home page.
 
     ![](https://raw.githubusercontent.com/technofocus-pte/cpltagntfrntr/refs/heads/main/Lab%20Guides/Lab%201/media/image4.png)
 
-5.  In the **left navigation**, select **All Agents** and explore the
+5.  In the **left navigation**, select **All Agents** and explore the
     Agent store.
 
     ![](https://raw.githubusercontent.com/technofocus-pte/cpltagntfrntr/refs/heads/main/Lab%20Guides/Lab%201/media/image5.png)
 
     ![](https://raw.githubusercontent.com/technofocus-pte/cpltagntfrntr/refs/heads/main/Lab%20Guides/Lab%201/media/image6.png)
 
-6.  Scroll down and look for **Workflows (Frontier)** option under
+6.  Scroll down and look for **Workflows (Frontier)** option under
     “Built by Microsoft” header.
 
     ![](https://raw.githubusercontent.com/technofocus-pte/cpltagntfrntr/refs/heads/main/Lab%20Guides/Lab%201/media/image7.png)
 
-7.  Select **Add** to add the **Workflows Agent (Frontier)**.
+7.  Select **Add** to add the **Workflows Agent (Frontier)**.
 
     ![](https://raw.githubusercontent.com/technofocus-pte/cpltagntfrntr/refs/heads/main/Lab%20Guides/Lab%201/media/image8.png)
 
@@ -164,7 +164,7 @@ Copilot to automate email triage.
 
     ![](https://raw.githubusercontent.com/technofocus-pte/cpltagntfrntr/refs/heads/main/Lab%20Guides/Lab%201/media/image9.png)
 
-    >[!Note] You will see a chat interface of Workflows (Frontier).
+    >[!Note] You will see a chat interface of Workflows (Frontier).
 
     ![](https://raw.githubusercontent.com/technofocus-pte/cpltagntfrntr/refs/heads/main/Lab%20Guides/Lab%201/media/image10.png)
 
@@ -179,15 +179,15 @@ Copilot to automate email triage.
     - Supplier/vendor updates  
     - Internal approvals or urgent requests
       
-    Categorize emails into:*
+    Categorize emails into:
     
-    - *Urgent – Needs immediate action*
+    - Urgent – Needs immediate action
     
-    - *Action Required – Needs response*
+    - Action Required – Needs response
     
-    - *FYI – Informational*
+    - FYI – Informational
     
-    *For each email include:  
+    For each email include:  
     - Sender  
     - Subject  
     - Summary  
@@ -204,7 +204,7 @@ Copilot to automate email triage.
 
     ![](https://raw.githubusercontent.com/technofocus-pte/cpltagntfrntr/refs/heads/main/Lab%20Guides/Lab%201/media/image11.png)
 
-2.  Select **Save** on the top right corner of the **Workflow** window
+2.  Select **Save** on the top right corner of the **Workflow** window
     to run the actions automatically. Your workflow is now created and
     ready to test.
 
@@ -233,7 +233,7 @@ Once the test process is completed, review that it:
 
 - Applies AI reasoning for categorization and summarization.
 
-You did not configure connectors manually—Copilot did it.
+You did not configure connectors manually—Copilot did it.
 
 >[!Note] Test process can take 5-10 minutes. Wait until the process
 is completed.
@@ -244,7 +244,7 @@ After processing your prompt, you will see the run results:
 
 1. Emails detected.
 
-    >[!Note] You need to send different types of sample emails to the
+    >[!Note] You need to send different types of sample emails to the
     account to verify that the workflow triggers a notification in Microsoft
     Teams. If you do not have any new unread emails in your inbox, you will
     need to do send test emails to validate the workflow and outputs.
@@ -286,7 +286,7 @@ Marie Brown (Customer Support Manager) wants approval before sending
 summaries to leadership team.
 
 1.  Navigate to +++https://m365.cloud.microsoft/chat/+++ to
-    open Microsoft 365 Copilot.
+    open Microsoft 365 Copilot.
 
 2.  Go to **Workflows (Frontier)** agent.
 
@@ -294,22 +294,22 @@ summaries to leadership team.
 
     ```
     When a summary is generated from Outlook emails categorized as
-    Action Required:*
+    Action Required:
     
-    *Before sending the summary:*
+    Before sending the summary:
     
-    *Send a Microsoft Teams approval request to me including the summary
-    content.*
+    Send a Microsoft Teams approval request to me including the summary
+    content.
     
-    *If approved:*
+    If approved:
     
-    *Send the summary via email.*
+    Send the summary via email.
     
-    *If rejected:*
+    If rejected:
     
-    *Stop the workflow and notify me in Teams.*
+    Stop the workflow and notify me in Teams.
     
-    *Start the workflow when a new email arrives. Once the approval or
+    Start the workflow when a new email arrives. Once the approval or
     rejection action is taken, stop sending the approval emails to the
     user.
     ```
@@ -355,7 +355,7 @@ Marie Brown (Customer Support Manager) wants to reduce missed
 follow-ups.
 
 1.  Navigate to +++https://m365.cloud.microsoft/chat/+++ to
-    open Microsoft 365 Copilot.
+    open Microsoft 365 Copilot.
 
 2.  Go to **Workflows (Frontier)** agent.
 
@@ -367,9 +367,9 @@ follow-ups.
     Send a Microsoft Teams reminder with Urgent timeline to respond to the
     email.  
     If there is no email response until 5 minutes:  
-    Send an escalation notification on email and Microsoft Teams.”*
+    Send an escalation notification on email and Microsoft Teams.”
     
-    *“When a new email arrives in Outlook with "Urgent" in the email
+    “When a new email arrives in Outlook with "Urgent" in the email
     subject:  
     Send a Microsoft Teams reminder to
     “@lab.CloudPortalCredential(User1).Username” to respond to the email
@@ -412,7 +412,7 @@ burnout risks at Zava Retail.
 
 ### Task 1: Add Workload Analysis
 
-1. Navigate to +++https://m365.cloud.microsoft/chat/+++ to open Microsoft 365 Copilot.
+1. Navigate to +++https://m365.cloud.microsoft/chat/+++ to open Microsoft 365 Copilot.
 
 2. Go to **Workflows (Frontier)** agent.
 
@@ -420,20 +420,20 @@ burnout risks at Zava Retail.
 
     ```
     Analyze my email workload patterns.  
-    When a new email arrives in Outlook*
+    When a new email arrives in Outlook
     
-    *After every new email received:*
+    After every new email received:
     
-    *Send me a summary in Microsoft Teams at
-    @lab.CloudPortalCredential(User1).Username that includes:*
+    Send me a summary in Microsoft Teams at
+    @lab.CloudPortalCredential(User1).Username that includes:
     
-    *- Total number of emails received on the same day*
+    - Total number of emails received on the same day
     
-    *- Number of emails marked as High Importance on the same day*
+    - Number of emails marked as High Importance on the same day
     
-    *- Number of emails received after 6 PM, in non-working hours.*
+    - Number of emails received after 6 PM, in non-working hours.
     
-    *Include a short note indicating if workload is high based on these
+    Include a short note indicating if workload is high based on these
     counts.
     ```
 
@@ -459,7 +459,7 @@ burnout risks at Zava Retail.
 ### Task 2: Classify Workload
 
 1. Navigate to +++https://m365.cloud.microsoft/chat/+++ to
-open Microsoft 365 Copilot.
+open Microsoft 365 Copilot.
 
 2. Under **Workflows (Frontier)** agent, paste the below prompt in the
 chat and select **Save**.
@@ -500,7 +500,7 @@ chat and select **Save**.
 ### Task 3: Generate Insights
 
 1. Navigate to +++https://m365.cloud.microsoft/chat/+++ to
-open Microsoft 365 Copilot.
+open Microsoft 365 Copilot.
 
 2. Under **Workflows (Frontier)** agent, paste the below prompt in the
 chat to turn raw signals into leadership insights. Select **Save**.
@@ -544,7 +544,7 @@ chat to turn raw signals into leadership insights. Select **Save**.
 ### Task 4: Add Adaptive Intelligence
 
 1. Navigate to +++https://m365.cloud.microsoft/chat/+++ to
-open Microsoft 365 Copilot.
+open Microsoft 365 Copilot.
 
 2. Under **Workflows (Frontier)** agent, paste the below prompt in the
 chat to make the agent dynamic and context-aware. Select **Save**.
